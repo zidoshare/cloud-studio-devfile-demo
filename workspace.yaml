@@ -1,4 +1,5 @@
 version: v1
 image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/ubuntu:18.04.5"
-extensions:
-  - "https://cs-res-1257242599.cos.ap-shanghai.myqcloud.com/workspace/assets/demo/aminer.codegeex-1.1.0.vsix"
+lifecycle:
+  init:
+    - command: "cloudstudio --install-extension ./aminer.codegeex-1.1.0.vsix"
