@@ -1,4 +1,4 @@
 version: v1
 image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/ubuntu:18.04.5"
 extensions:
-  - "/root/RemoteWorking/cloud-studio-devfile-demo/aminer.codegeex-1.1.0.vsix"
+  - "./aminer.codegeex-1.1.0.vsix"
