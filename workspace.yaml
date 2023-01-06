@@ -1,4 +1,4 @@
 version: v1
 image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/all-in-one:1.0.0"
 extensions:
-- "./aminer.codegeex-1.1.0.vsix"
+- "/root/RemoteWorking/aminer.codegeex-1.1.0.vsix"
